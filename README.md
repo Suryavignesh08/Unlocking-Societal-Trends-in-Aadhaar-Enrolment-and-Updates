@@ -1,3 +1,4 @@
+**Note** The Datasets are not uploaded due to privacy Concerns! 
 # UIDAI Hackathon 2026 – Predictive Aadhaar Analytics
 Project Overview
 This project, developed for the UIDAI Hackathon 2026, transforms large-scale administrative Aadhaar data into a strategic asset for proactive governance. By integrating multiple datasets, the study identifies behavioral patterns, regional operational stress, and predictive indicators to shift Aadhaar operations from reactive maintenance to anticipatory service delivery.
