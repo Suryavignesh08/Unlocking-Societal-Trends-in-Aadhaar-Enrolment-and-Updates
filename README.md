@@ -2,10 +2,10 @@
 Project Overview
 This project, developed for the UIDAI Hackathon 2026, transforms large-scale administrative Aadhaar data into a strategic asset for proactive governance. By integrating multiple datasets, the study identifies behavioral patterns, regional operational stress, and predictive indicators to shift Aadhaar operations from reactive maintenance to anticipatory service delivery.
 
-Problem Statement
+**Problem Statement**
 Despite near-universal coverage, the Aadhaar system faces rising update demands and uneven infrastructure stress. Current operations are largely reactive. This project aims to generate forward-looking indicators to support proactive governance and system improvements.
 
-Key Discoveries
+**Key Discoveries**
 
 Life-Cycle Identity System: Analysis reveals that adult (18+) enrollments dominate activity, proving Aadhaar is a continuous identity service rather than a one-time enrollment.
 
@@ -16,16 +16,15 @@ Biometric Concentration: Biometric updates are highly concentrated in specific r
 
 Predictive Trends: Enrollment surges align with academic calendars and financial cycles, allowing demand forecasting months in advance.
 
-Technical Stack
+**Technical Stack**
 
 Language: Python 
-
 Libraries: Pandas (Data Wrangling), Matplotlib (Visualization), NumPy.
 
+**Methodology**: 
+Interpretable time-series techniques using 6-month rolling averages to prioritize explainability for administrative decision-making.
 
-**Methodology**: Interpretable time-series techniques using 6-month rolling averages to prioritize explainability for administrative decision-making.
-
-Dataset Architecture
+**Dataset Architecture**
 The analysis merged 12 CSV files provided by UIDAI:
 | Dataset | Purpose |
 | :--- | :--- |
@@ -43,6 +42,7 @@ Pre-processing: Standardization of date formats and preservation of geographic g
 Feature Engineering: Creation of derived metrics like "Monthly Aggregates" and "Rolling Trends".
 
 Predictive Modeling: Forecasting near-term monthly demand (current trend estimate: ~793,722 enrollments).
+
 
 **Future Scope**
 Implementation of advanced ML models like ARIMA, Prophet, or LSTM for long-term forecasting.
